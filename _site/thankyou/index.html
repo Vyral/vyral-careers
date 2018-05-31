@@ -14,6 +14,9 @@
 
   <!-- fonts -->
   <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,300,300italic,200' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <!-- style-->
   <link rel="stylesheet" href="/css/main.css">
   <link rel="canonical" href="localhost:4000/thankyou/">
@@ -72,8 +75,48 @@
 
 		
 		<header id="hero">
-<div class="hero-img" style="background-image: url(/img/background.jpg); background-color: #999">
+  <div class="container">
+    <br>
+      <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner" role="listbox">
+          <div class="item active hero-img"><img src="/img/background.jpg"></div>
+          <div class="item hero-img"><img src="/img/background2.jpg"></div>
+          <div class="item hero-img"><img src="/img/background3.jpg"></div>
+          <div class="item hero-img"><img src="/img/background4.jpg"></div>
+          <div class="item hero-img"><img src="/img/background5.jpg"></div>
+  	  </div>
+    </div>
+   </div>
+  </div>
 </header>
+<script>
+$(document).ready(function(){
+    // Activate Carousel
+    $("#myCarousel").carousel();
+
+    // Enable Carousel Indicators
+    $(".item1").click(function(){
+        $("#myCarousel").carousel(0);
+    });
+    $(".item2").click(function(){
+        $("#myCarousel").carousel(1);
+    });
+    $(".item3").click(function(){
+        $("#myCarousel").carousel(2);
+    });
+    $(".item4").click(function(){
+        $("#myCarousel").carousel(3);
+    });
+
+    // Enable Carousel Controls
+    $(".left").click(function(){
+        $("#myCarousel").carousel("prev");
+    });
+    $(".right").click(function(){
+        $("#myCarousel").carousel("next");
+    });
+});
+</script>
 
 		<div class="container-fluid">
 			<div class="row">

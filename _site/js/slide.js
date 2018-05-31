@@ -1,33 +1,25 @@
-var slideIndex = 0;
-carousel();
+// Activate Carousel
+$("#myCarousel").carousel();
 
-function carousel() {
-    var i;
-    var x = document.getElementsByClassName("mySlides");
-    for (i = 0; i < x.length; i++) {
-      x[i].style.display = "none";
-    }
-    slideIndex++;
-    if (slideIndex > x.length) {slideIndex = 1}
-    x[slideIndex-1].style.display = "block";
-    setTimeout(carousel, 5000); // Change image every 2 seconds
-}
+// Enable Carousel Indicators
+$(".item1").click(function(){
+    $("#myCarousel").carousel(0);
+});
+$(".item2").click(function(){
+    $("#myCarousel").carousel(1);
+});
+$(".item3").click(function(){
+    $("#myCarousel").carousel(2);
+});
+$(".item4").click(function(){
+    $("#myCarousel").carousel(3);
+});
 
-
-var slideIndex = 1;
-showDivs(slideIndex);
-
-function plusDivs(n) {
-    showDivs(slideIndex += n);
-}
-
-function showDivs(n) {
-    var i;
-    var x = document.getElementsByClassName("mySlides");
-    if (n > x.length) {slideIndex = 1}
-    if (n < 1) {slideIndex = x.length} ;
-    for (i = 0; i < x.length; i++) {
-        x[i].style.display = "none";
-    }
-    x[slideIndex-1].style.display = "block";
-}
+// Enable Carousel Controls
+$(".left").click(function(){
+    $("#myCarousel").carousel("prev");
+});
+$(".right").click(function(){
+    $("#myCarousel").carousel("next");
+});
+});

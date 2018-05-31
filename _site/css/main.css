@@ -1387,7 +1387,7 @@ html[xmlns] .flexslider .slides {
   max-width: 65%; }
 
 .navbar-nav > li {
-  margin: 10px;
+  margin-left: 10px;
   -webkit-transition: all 0.15s ease-out 0s;
   transition: all 0.15s ease-out 0s; }
 
@@ -1437,10 +1437,11 @@ html[xmlns] .flexslider .slides {
   padding-left: 15px; }
 
 .navbar-left {
-  margin-top: 1rem; }
+  margin-top: 1.5rem; }
 
 .navbar-right {
-  margin-top: 1rem; }
+  margin-top: 1.5rem;
+  margin-right: 1rem; }
 
 .nav-logo {
   float: left !important;
@@ -1523,7 +1524,10 @@ html[xmlns] .flexslider .slides {
   font-size: 20px;
   color: #094264;
   list-style: none;
-  padding-left: 30px; }
+  padding-left: 30px;
+  margin-left: 0; }
+  .catbloc li:hover {
+    color: #f6600f; }
 
 label.tree-toggle {
   cursor: pointer; }
@@ -2766,6 +2770,30 @@ form select {
   color: #b40101;
   margin-top: -20px; }
 
+.mySlides img {
+  display: block;
+  margin: 0 auto;
+  width: 50%; }
+
+.slide-container {
+  color: #000;
+  padding: 3rem 0; }
+
+.slide-area {
+  display: block;
+  margin: 0 auto; }
+
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+  width: 100%;
+  margin: auto; }
+
+.container {
+  max-width: 100%; }
+
+.item {
+  padding: 0; }
+
 .recruiting {
   text-align: center; }
 
@@ -2889,10 +2917,6 @@ form select {
 
 .indent {
   margin-left: 5rem; }
-
-.fb-page {
-  width: 90%;
-  margin-left: 5%; }
 
 .e2ma_signup_form_label {
   color: #555 !important;

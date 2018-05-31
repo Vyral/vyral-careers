@@ -1,3 +1,43 @@
 <header id="hero">
-<div class="hero-img" style="background-image: url({{site.data.settings.images.hero_image_path}}); background-color: {{site.data.settings.images.hero_background_hex}}">
+  <div class="container">
+    <br>
+      <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner" role="listbox">
+          <div class="item active hero-img"><img src="/img/background.jpg"></div>
+          <div class="item hero-img"><img src="/img/background2.jpg"></div>
+          <div class="item hero-img"><img src="/img/background3.jpg"></div>
+          <div class="item hero-img"><img src="/img/background4.jpg"></div>
+          <div class="item hero-img"><img src="/img/background5.jpg"></div>
+  	  </div>
+    </div>
+   </div>
+  </div>
 </header>
+<script>
+$(document).ready(function(){
+    // Activate Carousel
+    $("#myCarousel").carousel();
+
+    // Enable Carousel Indicators
+    $(".item1").click(function(){
+        $("#myCarousel").carousel(0);
+    });
+    $(".item2").click(function(){
+        $("#myCarousel").carousel(1);
+    });
+    $(".item3").click(function(){
+        $("#myCarousel").carousel(2);
+    });
+    $(".item4").click(function(){
+        $("#myCarousel").carousel(3);
+    });
+
+    // Enable Carousel Controls
+    $(".left").click(function(){
+        $("#myCarousel").carousel("prev");
+    });
+    $(".right").click(function(){
+        $("#myCarousel").carousel("next");
+    });
+});
+</script>
