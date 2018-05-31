@@ -3,60 +3,90 @@ layout: recruiting
 title: Join Our Team
 permalink: /join-our-team/
 ---
-
+<div class="whitespace"></div>
 <div class="recruiting-page">
-<h1 class="join-us">Join One of the Fastest Growing Real Estate Teams in {{site.data.settings.client.market}}</h1>
-<h5 class="join-us-subtitle">How would your life change if you consistently earned $60,000, $75,000, $100,000 or more as a full-time real estate agent?</h5>
-<div class="recruiting-photo">
-<span class="client-image-container">
-<img src="/img/headshot.jpg" alt="{{site.data.settings.client.name}}" class="client-image"/>
-</span>
-<figcaption class="caption">{{site.data.settings.client.name}}</figcaption>
+<div class="letterhead">
+<div id="letterhead-title">Get Paid to Learn In-Demand Marketing Skills</div>
+<p>You'll get on a path to earn $50,000 a year at your own pace.</p>
+<hr>
+<div id="letterhead-title">Apply Now and We'll Call You Within 1 Business Day</div></div>
+
+<div class="page-button-container">
+<a href="http://www.getvyral.com/careers-apply-now" target="_blank" class="page-button">
+	Apply Now
+</a>
 </div>
 
+<p><strong>Do you want to be a highly paid marketing professional?</strong></p>
 
-<p>Dear Real Estate Agent,</p>
+<p>Get all the marketing training, coaching, and guidance you need to earn $50,000 a year at your own pace.</p>
 
-<p>Are you frustrated with where you’re at in your real estate business?</p>
+<p>We train highly paid marketing professionals from scratch.</p>
 
-<p>I’d like to offer you a free subscription to my real estate agent training e-newsletter. You’ll receive:
-<ul class="indent">
-<li>Q&A videos answering the most commonly asked business questions</li>
-<li>Interviews with agents in my office on what they are doing to sell homes</li>
-<li>Replays of trainings and meetings we hold, that are recorded, so you can attend 24/7</li>
-<li>Invites to special events with guest speakers that include exclusive discount codes</li>
-<li>Copies of procedure manuals, checklists, and more we use to streamline operations</li>
-<li>Market updates we publish that you can copy and paste to use in your marketing</li>
+<p><strong>No experience necessary. Entry level position.</strong></p>
+
+<p>As a full-time paid entry level marketing trainee, you get:
+<ul>
+<li>Real Client Project Work</li>
+<li>Daily Marketing Discussions</li>
+<li>Weekly One on One Meetings</li>
+<li>Weekly Marketing Classes</li>
+<li>Morning Huddles</li>
+<li>Motivated Culture</li>
+<li>Accountability</li>
+<li>Clients Provided For You</li>
+<li>Clear Path For Growth</li>
 </ul></p>
 
-<p>This newsletter is specifically for real estate agents who want to grow, learn, and want to dominate their market with a local brand and expert presence. If you want to improve yourself, make more money and you feel you can do more and just need the tools, this is for you. This is not for part-time agents who are happy with their income.</p>
+<p>Includes a full ride scholarship ($12,000 Value) to our flagship one year Marketing School to help you learn everything to generate sales and leads for your client. You get daily instruction in a small group of eight.</p>
 
-<p>This is 100% educational advice. I’d like you to get to know what we’re up to here so we can grow the size of the real estate pie in {{site.data.settings.client.market}}. In the past year, ____ homes SOLD in our {{site.data.settings.client.market}} market, so there is plenty of business to go around.</p>
+<p>Your training includes:
+<ul>
+<li>30 Days of New Employee Onboarding</li>
+<li>Morning 30 Minute Team Huddle</li>
+<li>One Hour a Day of Marketing School</li>
+<li>One Hour a Day of Communication School</li>
+<li>Weekly 3 Hour Marketing Class (Thursday)</li>
+<li>Weekly 3 Hour Communication Class (Friday)</li>
+<li>Weekly One on One Review Meeting</li>
+<li>Weekly Specialist Training (Video, Graphic, Writer, Coaching, etc)</li>
+</ul></p>
 
-<p>SPECIAL NEW SUBSCRIBER BONUS</p>
+<p>Learn landing pages, Facebook ads, YouTube ads, email marketing, webinars, video editing, copywriting, and much more. Includes in-depth self improvement and communication training so you're confident to advise clients properly on the phone to succeed.</p>
 
-<p>When you subscribe, you’ll also receive a free copy of my Office Tour DVD so you can see how our office is set up, who does what, and what’s it like to work in a productive real estate office. We collectively sell about _____ homes every year.</p>
+<hr>
+<div class="testimonial-inline">
+<p><strong>Hear Our Employee Success Stories:</strong></p>
 
-<p>Feel free to unsubscribe anytime. We will never, ever, ever spam you.</p>
+<p class="testimonial-text indent">“I went from minimum wage to $50,000 in six months” <span class="testimonial-author">- Danny S.</span></p>
 
-<p>The next step, after subscribing to our newsletter, is to attend one of our many Business Planning Workshops we hold from time to time, with the opportunity to schedule a free business planning meeting where we’ll personalize the plan for you.</p>
+<p class="testimonial-text indent">“I went from $10 an hour to six figures in two years” <span class="testimonial-author">- Scott S.</span></p>
 
-<p>I invite you to subscribe below. Simply enter your email address and you’ll get a confirmation email with a copy of my Office Tour DVD.</p>
+<p class="testimonial-text indent">“I went from hourly to $50,000 in five months!” <span class="testimonial-author">- Adela D.</span></p>
+</div>
+<hr>
 
-<p>Email me at <a href="mailto:{{site.data.settings.client.email}}">{{site.data.settings.client.email}}</a>  with any questions I can answer for you in my videos. If I pick your question and answer it in the newsletter, I’ll send you a $5 Amazon gift card!</p>
+<p>Pay starts at $10 an hour full time as an employee in video editing, writing, graphic design, and marketing support roles with a path to earn $50,000 a year at a pace you’re comfortable with.</p>
 
-<p>Let’s help you grow your business.</p>
+<p>All training provided. Includes health insurance.</p>
 
-<p>{{site.data.settings.client.name}}</p>
+<p>You will earn $100,000 a year as you take on more strategic key clients and build your own team as your leadership, confidence, and marketing skills grow overtime with us.</p>
 
+<p>This is a full time paid employee marketing role. It does not require any selling, cold calling or commission-based work. You are doing marketing for clients, paid for your time as an employee, with a clear career path to succeed.</p>
 
+<p>You'll work in our Omaha, NE office at 3205 North 90th Street with your own desk and computer.</p>
 
-<h2 class="recruiting">Request a Free Business Planning Call</h2>
+<p>Hours are 9am - 5pm Monday through Friday.</p>
 
-<form method="post" class="home-value cta-forms" action="http://formspree.io/{{site.data.settings.client.email}}" onsubmit="return setReturn()">
-					<fieldset><label for="firstname">First Name*</label> <input type="text" required="" name="firstname" /> <label for="lastname">Last Name*</label> <input type="text" required="" name="lastname" /> <label for="email">Email*</label> <input type="text" name="name" /> <label for="phone">Phone Number </label> <input type="tel" name="phone" />
-						<!--base32-c9gq6t9k68pkcd3jcwpp4rbkcmtk4-base32--><label for="city">City </label> <input type="text" name="city" /> <label for="state">State </label> <input type="text" name="state" /> <label for="employer">Current Employer </label> <input type="text" name="employer" /> <label for="message">Why are you interested in this? </label><textarea name="employer"></textarea>
-						<!--base32-c9gq6t9k68pk8cbme5gq4uv4cguqachj70r2urk1edjk6cg-base32--><input class="submit light-light" type="submit" value="Apply Now" name="submitrecruitingForm" /> <span class="asterisk">*required</span></fieldset>
-					<!--base32-c9gq6t9k68pk8c9he1t7cxkecdkpedhpe9h6at3me5r7ee1kddhpwx9q71up4tb3f1u6mc3mdcwp6vkg6rw3gc1dc9gq6t9k68-base32-->
-					<div class="hidden"><input type="hidden" value="{{site.data.settings.client.email}}" name="_to" /> <input type="hidden" value="Recruiting Contact Request Message From Your Vyral Careers and Training Video Blog" name="_subject" /> <input type="text" name="_gotcha" /></div>
-				</form>
+<p>It all starts with a friendly and informal Marketing Career Night at our office to meet your trainers and co-workers. This way you completely understand the vision, your role, your responsibilities, and how you're paid.</p>
+
+<p>You'll see your office space, where you'll work, and you'll get the full syllabus for your training plan to make you are a highly paid digital marketer. If you like what you see during our fun and helpful career night, we'll invite you in for a one on one interview afterward.</p>
+
+<p>Please apply and we'll call you within one business day to answer your questions and send you an invite to our next Marketing Career Night. We hold the meetings monthly.</p>
+
+<p><strong>We are hiring all the time.</strong> Please apply now. We're exited to meet you!</p>
+
+<p>Job Type: Full-time<br>
+Salary: $10.00 /hour</p>
+
+</div>

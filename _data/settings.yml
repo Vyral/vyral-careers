@@ -5,12 +5,8 @@ show_custom_links: true
 custom_links:
   - title: Join Our Team
     url: /join-our-team/
-  - title: Events
-    url: #
-  - title: Free Strategy Call
-    url: /strategy-call/
-  - title: Free Newsletter
-    url: /subscribe/
+  - title: Glass Door Reviews
+    url: https://www.glassdoor.com/Reviews/Vyral-Marketing-Reviews-E849856.htm
 
 
 client:
@@ -23,11 +19,11 @@ client:
   brand:
   brokerage:
   address:
-  phone:
+  phone: 1-800-323-9974
   phone_type:
   phone2:
   phone2_type:
-  email:
+  email: allison@getvyral.com
   url:
 
 lender:
@@ -44,12 +40,12 @@ lender:
 
 socials:
   review_sm_icons: false
-  facebook_url:
-  linkedin_url:
+  facebook_url: http://www.facebook.com/VyralMarketing
+  linkedin_url: https://www.linkedin.com/company/vyral-marketing
   gplus_url:
   youtube_url:
-  twitter_url:
-  instagram_url:
+  twitter_url: https://twitter.com/vyralmarketing
+  instagram_url: http://instagram.com/vyralmarketing
   pinterest_url:
   zillow_url:
   trulia_url:
@@ -74,8 +70,9 @@ images:
   hero_image_path: /img/background.jpg
   post_cover: /img/cover.jpg
 site_colors:
-  brand_color: '#b40101'
-  theme_color: '#999'
+  brand_color: '#094264'
+  theme_color: '#323230'
+  accent_color: '#f6600f'
   theme_text_color: '#5d9bd3'
   main_body_color: '#ffffff'
   main_body_text_color: '#353535'

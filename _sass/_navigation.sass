@@ -15,14 +15,13 @@
 	max-width: 65%
 
 .navbar-nav>li
-	margin-right: 10px
-	margin-bottom: 0px
+	margin: 10px
 	@include transition
 
 .navbar-left>li>a
 	background: transparent
 	color: black
-	// padding: 1.3rem 2rem
+	padding: 1.3rem
 	text-transform: capitalize
 	font-size: 2rem
 	font-weight: 300
@@ -43,16 +42,16 @@
 		text-decoration: none
 		color: $brand
 
-.cta
+.cta-phone
 	background: transparent
-	color: $button-text
+	color: $accent
 	// padding: 1.3rem 2rem
 	text-transform: capitalize
 	font-size: 2rem
-	font-weight: 300
+	font-weight: bold
 	&:hover
 		background: #eeeeee
-		color: $brand-dark
+		color: $brand
 	&:active
 		text-decoration: none
 		color: $brand
@@ -75,23 +74,25 @@
 	// height: 52px
 
 .navbar-left
-	margin-top: 2rem
+	margin-top: 1rem
 
+.navbar-right
+	margin-top: 1rem
 
 .nav-logo
 	float: left !important
-	max-width: 250px
+	max-width: 150px
 	margin: 5px
 	padding: 10px
 
-@media (max-width: 760px)
+@media (max-width: 768px)
 	.nav-logo
 		display: none
 	.hero-img
 		height: 300px
 
 	.nav-logo-small
-		max-width: 250px
+		max-width: 100px
 		margin-top: -10px
 
 
@@ -124,6 +125,4 @@
 // 		+shadow
 // 		// background: $theme
 .brand-color
-	+shadow
-	background: $theme
-	animation: .3s fadein ease-in-out
+	background: #fff

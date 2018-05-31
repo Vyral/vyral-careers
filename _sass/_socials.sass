@@ -1,7 +1,6 @@
 .socials
 	padding: 0.7rem
 	margin-bottom: 0.7rem
-
 	ul
 		margin-bottom: 0.1rem
 		max-height: 5rem
@@ -9,22 +8,23 @@
 		li
 			padding: 0.3rem
 			display: inline-block
+			margin-left: 0
 	svg
 		fill: $brand
 		@include size(3.5rem)
 		border-radius: 50%
 		@include transition
 		&:hover
-			fill: $brand-light
+			fill: $accent
 			background: transparent
-			color: $brand-light
+			color: $accent
 			+shadow
-			// box-shadow: 4px 4px 0 $brand-light
-			// border: 2px solid $brand-light
+			// box-shadow: 4px 4px 0 $accent
+			// border: 2px solid $accent
 			@include transform(scale(1.05))
 			@include transform(translateY(-0.2rem))
 		&:active
-			box-shadow: 0 0 0 $brand-light
+			box-shadow: 0 0 0 $accent
 			@include transform(translateY(0rem))
 
 //For about page
@@ -36,11 +36,11 @@
 		@include size(5rem)
 		fill: $brand
 		&:hover
-			fill: $brand-light
+			fill: $accent
 
 .footer-socials
 	.socials
-		text-align: center
+		text-align: left
 		margin: 2rem
 		list-style-type: none
 		li
@@ -53,7 +53,7 @@
 			-webkit-transition: 1s cubic-bezier(0.4, 0, 0.2, 1)
 			transition: .3s cubic-bezier(0.4, 0, 0.2, 1)
 			&:hover
-				fill: $brand-light
+				fill: $accent
 				background: transparent
 
 
@@ -67,23 +67,28 @@
 		svg
 			@include size(2.7rem)
 
-	.footer-socials
-		.socials
-			svg
-				@include size(2.4rem)
 
 @media (max-width: 990px)
 	.socials
 		svg
-			@include size(4rem)
+			@include size(2.4rem)
+		text-align: left
+
+@media (max-width: 768px)
+	.socials
 		text-align: center
+
+	.footer-socials
+		.socials
+			svg
+				@include size(2.4rem)
 
 @media (max-width: 445px)
 
 	.socials
 		// margin-bottom: 6rem
 		svg
-			@include size(3rem)
+			@include size(2.4rem)
 
 @media (max-width: 400px)
 	.socials

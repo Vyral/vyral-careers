@@ -5,8 +5,8 @@
     <description>-- CLIENT NAME --, a top Real Estate Agent in , shares his/her own internal real estate agent training for free. His/Her Real Estate Training, Tips and Advice will help you sell more homes in less time.</description>
     <link>localhost:4000/</link>
     <atom:link href="localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 30 May 2018 12:17:35 -0500</pubDate>
-    <lastBuildDate>Wed, 30 May 2018 12:17:35 -0500</lastBuildDate>
+    <pubDate>Thu, 31 May 2018 12:48:37 -0500</pubDate>
+    <lastBuildDate>Thu, 31 May 2018 12:48:37 -0500</lastBuildDate>
     <generator>Jekyll v3.2.1</generator>
     
       <item>
@@ -29,11 +29,13 @@
         <link>localhost:4000/this-is-a-test-post-copy-2.html</link>
         <guid isPermaLink="true">localhost:4000/this-is-a-test-post-copy-2.html</guid>
         
-        <category>Market Update</category>
+        <category>Motivated Culture</category>
         
-        <category>Real Estate</category>
+        <category>Accountability</category>
         
-        <category>Home Seller Tips</category>
+        <category>Clients Provided For You</category>
+        
+        <category>Clear Path For Growth</category>
         
         
       </item>
@@ -74,11 +76,15 @@
         <link>localhost:4000/a-fox-in-space.html</link>
         <guid isPermaLink="true">localhost:4000/a-fox-in-space.html</guid>
         
-        <category>Market Update</category>
+        <category>Real Client Project Work</category>
         
-        <category>Real Estate</category>
+        <category>Daily Marketing Discussions</category>
         
-        <category>Home Seller Tips</category>
+        <category>Weekly One on One Meetings</category>
+        
+        <category>Weekly Marketing Classes</category>
+        
+        <category>Morning Huddles</category>
         
         
       </item>

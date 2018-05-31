@@ -30,10 +30,35 @@
 	padding: 1rem 1.5rem
 	// border-radius: 4px
 	&:hover
-		background-color: #fff
-		border: 2px solid $brand
-		color: $brand
+		background-color: $accent
+		border: 2px solid $accent
+		color: #fff
 
 @media(max-width: 750)
 	#myBtn
 		bottom: 40px
+
+.page-button-container
+	margin: 3rem auto
+	text-align: center
+
+.page-button
+	justify-content: center
+	background: $accent
+	border: 1px solid $accent
+	border-radius: $button-radius
+	padding: 10px 20px
+	text-decoration: none
+	font-size: 18px
+	color: #ffffff
+	margin-left: 1rem
+	+transition
+	p
+		text-align: center
+	&:hover
+		background: $brand
+		color: #fff
+		border: 1px solid $brand
+	&:active
+		// box-shadow: 0 0 0 $brand
+		@include transform(translateY(0rem))

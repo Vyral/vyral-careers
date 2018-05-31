@@ -1,16 +1,15 @@
 .footer
-	background: darken($theme, .2)
-	color: $theme-text
+	background: $theme
+	color: #fff
 	padding: 2rem
-	text-align: center
+	text-align: left
 	font-size: 18px
-	hr
-		border-top: 2px solid $brand
+
 	address
 		font-style: normal
 @media(max-width: 500px)
 	.footer
-		text-align: center
+		text-align: left
 		.vyral-logo
 			@include size(3rem)
 
@@ -18,13 +17,49 @@
 	text-align: center
 
 .vyral-logo
-	fill: $brand
+	fill: #fff
 	display: inline
 	@include size(2rem)
 	position: relative
 	top: 0.5rem
 	margin-right: 0.1rem
 	&:hover
-		fill: $brand-light
+		fill: $accent
 .footer-pad
 	padding-top: 20px
+
+.footer-title
+	text-transform: uppercase
+	font-size: 26px
+	font-weight: bold
+
+.footer-hr
+	width: 20%
+	margin: 1rem 0
+	text-align: left
+	border-top: 2px solid $accent
+
+.footer-container
+	width: 90%
+	max-width: 160rem
+	margin: 0 auto
+
+.footer-logo
+	display: block
+	margin: 5rem auto
+	max-width: 100%
+
+
+@media(max-width: 768px)
+	.footer
+		text-align: center
+		margin-bottom: 0
+		padding: 3rem
+	.footer-logo
+		max-width: 40%
+		margin: 0 auto
+	.footer-contact
+		margin-top: 4rem
+	.footer-hr
+		display: block
+		margin: 1rem auto

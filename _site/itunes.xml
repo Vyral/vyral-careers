@@ -7,13 +7,13 @@
     <description>If you are looking to buy or sell a home, get all the information and the latest updates, tips, and tricks from  - your professional  Real Estate Agents.</description>
     <language>en</language>
     <managingEditor></managingEditor>
-    <lastBuildDate>2018-05-30 12:17:35 -0500</lastBuildDate>
+    <lastBuildDate>2018-05-31 12:48:37 -0500</lastBuildDate>
     <media:copyright></media:copyright>
     <media:thumbnail url="localhost:4000/img/podcast.jpg"/>
     <media:keywords>Real Estate for sale, Real Estate agents, top real estate agents, local real estate agents, find a real estate agent, houses for sale in , home selling tips, home for sale, home buying, home buying process, property finder, property search, property, real estate market, estate agent, realestate, real estate listings, buying a house, homes for sale, mls, home buyer</media:keywords>
     <media:category scheme="http://www.itunes.com/dtds/podcast-1.0.dtd">Education</media:category>
     <itunes:owner>
-      <itunes:email></itunes:email>
+      <itunes:email>allison@getvyral.com</itunes:email>
       <itunes:name></itunes:name>
     </itunes:owner>
     <itunes:author></itunes:author>
@@ -28,11 +28,13 @@
         <title>this is a test post</title>
         <link>localhost:4000/this-is-a-test-post-copy-2.html</link>
         
-          <category>Market Update</category>
+          <category>Motivated Culture</category>
         
-          <category>Real Estate</category>
+          <category>Accountability</category>
         
-          <category>Home Seller Tips</category>
+          <category>Clients Provided For You</category>
+        
+          <category>Clear Path For Growth</category>
         
         <author></author>
         <pubDate>2018-05-10 00:00:00 -0500</pubDate>
@@ -65,11 +67,15 @@ Oh. You need a little dummy text for your mockup? How quaint.I bet you’re stil
         <title>A Fox in Space</title>
         <link>localhost:4000/a-fox-in-space.html</link>
         
-          <category>Market Update</category>
+          <category>Real Client Project Work</category>
         
-          <category>Real Estate</category>
+          <category>Daily Marketing Discussions</category>
         
-          <category>Home Seller Tips</category>
+          <category>Weekly One on One Meetings</category>
+        
+          <category>Weekly Marketing Classes</category>
+        
+          <category>Morning Huddles</category>
         
         <author></author>
         <pubDate>2018-05-07 00:00:00 -0500</pubDate>
