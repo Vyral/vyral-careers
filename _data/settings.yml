@@ -5,8 +5,6 @@ show_custom_links: true
 custom_links:
   - title: Join Our Team
     url: /join-our-team/
-  - title: Glass Door Reviews
-    url: https://www.glassdoor.com/Reviews/Vyral-Marketing-Reviews-E849856.htm
 
 
 client:
