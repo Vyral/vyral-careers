@@ -2794,7 +2794,9 @@ form select {
 
 .item {
   padding: 0;
-  margin-top: -4rem; }
+  margin-top: -4rem;
+  background-position: center;
+  background-size: cover; }
 
 @media (max-width: 1550px) {
   .container {
