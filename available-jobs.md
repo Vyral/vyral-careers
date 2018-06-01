@@ -1,0 +1,7 @@
+---
+layout: page
+title: Available Jobs
+permalink: /available-jobs/
+---
+<div class="hire-jobs"></div>
+<script id="hire-embed-loader" async defer src="https://hire.withgoogle.com/s/embed/hire-jobs.js?company=getvyralcom"></script>
