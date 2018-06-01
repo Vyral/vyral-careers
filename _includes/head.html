@@ -8,9 +8,7 @@
   <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.data.settings.title | escape | replace: '-- MARKET --', site.data.settings.client.market | replace: '-- CLIENT NAME --', site.data.settings.client.name }}{% endif %}</title>
   <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.data.settings.description | replace: '-- MARKET --', site.data.settings.client.market | replace: '-- CLIENT BRAND --', site.data.settings.client.brand }}
 	{% endif %}">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
   <!-- fonts -->
   <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,300,300italic,500italic,200' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
