@@ -1541,7 +1541,8 @@ label.tree-toggle {
   background-size: cover;
   background-attachment: fixed;
   background-repeat: no-repeat;
-  text-align: center; }
+  text-align: center;
+  padding-top: 0; }
 
 .site-logo {
   width: 90%;
@@ -2789,11 +2790,42 @@ form select {
 
 .container {
   max-width: 100%;
-  height: 350px; }
+  height: 430px; }
 
 .item {
-  padding: 0; }
+  padding: 0;
+  margin-top: -4rem; }
 
+@media (max-width: 1550px) {
+  .container {
+    height: 350px; }
+
+  .item {
+    margin-top: -2rem; } }
+@media (max-width: 1100px) {
+  .container {
+    height: 300px; }
+
+  .item {
+    margin-top: 1rem; } }
+@media (max-width: 760px) {
+  .container {
+    height: 200px; }
+
+  .item {
+    margin-top: 0rem; } }
+@media (max-width: 600px) {
+  .container {
+    height: 170px; }
+
+  .item {
+    margin-top: 1rem; } }
+@media (max-width: 400px) {
+  .container {
+    height: 140px; }
+
+  .item {
+    margin-top: 2rem; } }
 .recruiting {
   text-align: center; }
 

@@ -2,12 +2,35 @@
   <div class="container">
     <br>
       <div id="myCarousel" class="carousel slide" data-ride="carousel">
+
+        <ol class="carousel-indicators">
+          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#myCarousel" data-slide-to="1"></li>
+          <li data-target="#myCarousel" data-slide-to="2"></li>
+          <li data-target="#myCarousel" data-slide-to="3"></li>
+          <li data-target="#myCarousel" data-slide-to="4"></li>
+          <li data-target="#myCarousel" data-slide-to="5"></li>
+          <li data-target="#myCarousel" data-slide-to="6"></li>
+          <li data-target="#myCarousel" data-slide-to="7"></li>
+        </ol>
+
         <div class="carousel-inner" role="listbox">
-          <div class="item active hero-img"><img src="/img/background.jpg"></div>
+          <!-- <div class="item active hero-img"><img src="/img/background.jpg"></div>
           <div class="item hero-img"><img src="/img/background2.jpg"></div>
           <div class="item hero-img"><img src="/img/background3.jpg"></div>
           <div class="item hero-img"><img src="/img/background4.jpg"></div>
-          <div class="item hero-img"><img src="/img/background5.jpg"></div>
+          <div class="item hero-img"><img src="/img/background5.jpg"></div> -->
+
+          <div class="item active hero-img"><img src="/img/hero1.jpg"></div>
+          <div class="item hero-img"><img src="/img/hero2.jpg"></div>
+          <div class="item hero-img"><img src="/img/hero3.jpg"></div>
+          <div class="item hero-img"><img src="/img/hero4.jpg"></div>
+          <div class="item hero-img"><img src="/img/hero5.jpg"></div>
+          <div class="item hero-img"><img src="/img/hero6.jpg"></div>
+          <div class="item hero-img"><img src="/img/hero7.jpg"></div>
+          <div class="item hero-img"><img src="/img/hero8.jpg"></div>
+
+
   	  </div>
     </div>
    </div>
@@ -31,13 +54,17 @@ $(document).ready(function(){
     $(".item4").click(function(){
         $("#myCarousel").carousel(3);
     });
-
-    // Enable Carousel Controls
-    $(".left").click(function(){
-        $("#myCarousel").carousel("prev");
+    $(".item5").click(function(){
+        $("#myCarousel").carousel(4);
     });
-    $(".right").click(function(){
-        $("#myCarousel").carousel("next");
+    $(".item6").click(function(){
+        $("#myCarousel").carousel(5);
+    });
+    $(".item7").click(function(){
+        $("#myCarousel").carousel(6);
+    });
+    $(".item8").click(function(){
+        $("#myCarousel").carousel(7);
     });
 });
 </script>
